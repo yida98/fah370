@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+}
+
+#main_nav {
+    position: fixed;
+    text-align:center;
+    width: 100%;
+}
+
+#main_nav ul{
+    width: 100%;
+    background-color: #111111;
+    opacity: 0.8;
+    list-style: none;
+    text-align:center;
+    padding-top: 5px;
+}
+
+#main_nav li{
+    display:inline-block;
+}
+
+#main_nav a {
+    opacity: 0.75;
+    font-size: 145%;
+    padding: 13px 45px;
+    text-align:center;
+    text-transform: uppercase;
+    width:150px;
+    margin: 0 auto 0 auto;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+#main_nav a:hover {
+    opacity: 1;
+    color:#FF0000;
+    transition: background-color 0.5s ease;
+}
+body {
+    font-family:"Futura";
+
+}
+
+/*---p---*/
+p, p2 {
+    padding-left:10%;
+    font-size: 150%;
+    text-decoration: none;
+    font-family:"verdana";
+}
+
+p, #bib {
+    color: #585858;
+    line-height: 50px;
+}
+p{
+    padding-right: 10%;
+    font-size: 110%;
+    text-indent: 60px;
+}
+p2{
+    color: #BABEDA;
+    font-family: "futura";
+}
+p3{
+    position: absolute;
+    margin-left: 60%;
+    font-family: "verdana";
+    color: #DDD;
+}
+
+p5{
+    text-transform:uppercase;
+    font-size:575%;
+    color: #FFFFFF;
+    letter-spacing:1%;
+}
+
+
+/*---h---*/
+h2, h3, h4, h5, h6 {
+    padding: 5% 0 2% 10%;
+    text-align:left;
+    font-size:475%;
+    color: #FFFFFF;
+    text-transform:lowercase;
+    letter-spacing:1%;
+    
+}
+h2{
+    color: #BABEDA;
+}
+h6{
+    color: #FFF;
+}
+
+/*---body---*/
+
+.longleat, .rotonda, .holy{
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+#about{
+    padding-bottom: 10%;
+}
+
+/*---help---*/
+
+.box {
+    border-top:18%;
+    text-align: center;
+    height: 100px;
+    overflow:hidden;
+    
+}
+.hov {
+    transition: transform .3s ease-in-out;
+    
+}
+
+.hov:hover{
+    transform: translate3d(0px, -50%, 0px);
+}
+
+
+/*---bib---*/
+#bibb {
+    font-size:100%;
+    font-family: "verdana";
+    color: #DDD;
+}
+#bibb ul{
+    padding-left: 10%;
+}
+
+/*---START PARALLAX---*/
+
+.parallax {
+    background: url("roads.jpg") fixed center;
+}
+.parallax-inner {
+    padding-top: 20%;
+    padding-bottom: 22.8%;
+}
+/*---END PARALLAX---*/
+
+/*---START PARALLAX2---*/
+
+.parallax2 {
+    background: url("long.jpg") fixed center;
+}
+.parallax-inner2 {
+    padding-top: 36%;
+}
+/*---END PARALLAX2---*/
+
+/*---START PARALLAX3---*/
+.parallax3 {
+    background: url("rotandax.jpg") fixed center;
+}
+.parallax-inner3 {
+    padding-top: 36%;
+}
+/*---END PARALLAX3---*/
+
+/*---START PARALLAX4---*/
+.parallax4 {
+    background: url("holytr.jpg") fixed center;
+}
+.parallax-inner4 {
+    padding-top: 28%;
+}
+/*---END PARALLAX4---*/
+
+/*---START PARALLAX5---*/
+
+.parallax5 {
+    background: url("longleat.jpg") no-repeat fixed center;
+    background-size: 100%;
+}
+.parallax-inner5 {
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+/*---END PARALLAX5---*/
