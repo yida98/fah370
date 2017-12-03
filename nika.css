@@ -68,7 +68,6 @@ p2{
     font-family: "futura";
 }
 p3{
-    position: absolute;
     margin-left: 60%;
     font-family: "verdana";
     color: #DDD;
@@ -145,7 +144,7 @@ h6{
 }
 .parallax-inner {
     padding-top: 20%;
-    padding-bottom: 22.8%;
+    padding-bottom: 21.2%;
 }
 /*---END PARALLAX---*/
 
