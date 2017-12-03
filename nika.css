@@ -160,7 +160,8 @@ h6{
 
 /*---START PARALLAX3---*/
 .parallax3 {
-    background: url("rotandax.jpg") fixed center;
+    background: url("front.jpg") fixed center;
+    background-size:100%;
 }
 .parallax-inner3 {
     padding-top: 36%;
@@ -183,7 +184,7 @@ h6{
     background-size: 100%;
 }
 .parallax-inner5 {
-    padding-top: 20%;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 /*---END PARALLAX5---*/
